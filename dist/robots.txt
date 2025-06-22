@@ -1,0 +1,26 @@
+# Robots.txt pour DanWiFi.com
+User-agent: *
+Allow: /
+
+# Pages importantes
+Allow: /
+Allow: /#services
+Allow: /#pricing
+Allow: /#partners
+Allow: /legal/terms
+Allow: /legal/privacy
+Allow: /legal/cookies
+Allow: /legal/mentions
+
+# Pages à ne pas indexer
+Disallow: /#admin
+Disallow: /#dashboard
+Disallow: /api/
+Disallow: /admin/
+Disallow: /dashboard/
+
+# Sitemap
+Sitemap: https://danwifi.com/sitemap.xml
+
+# Crawl-delay pour éviter la surcharge
+Crawl-delay: 1
